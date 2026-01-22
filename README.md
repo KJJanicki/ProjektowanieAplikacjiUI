@@ -2,9 +2,9 @@
 
 ## Jak uruchomić
 
-Ponieważ ta aplikacja korzysta z **ES Modules**, do działania wymaga lokalnego serwera WWW.
+Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serwera WWW.
 
-### Zalecena użyć Pythona:
+### Zalecene użyć Pythona:
 Do uruchomienia tego trzeba mieć zainstalowanego Pythona (wersja obojętna):
 
 1. Pobierz folder z projektem - "AplikacjaRandkowa_AURA.
