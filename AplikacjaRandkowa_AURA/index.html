@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - Dating App</title>
+
+    <!-- Design System & Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+
+    <!-- Polyfill for process (Required by React/Framer Motion) -->
+    <script>
+        window.process = { env: { NODE_ENV: 'development' } };
+
+        // Error Logger for debugging (Displays errors on screen)
+        window.addEventListener('error', function (e) {
+            const errorBox = document.createElement('div');
+            errorBox.style.position = 'fixed';
+            errorBox.style.top = '0';
+            errorBox.style.left = '0';
+            errorBox.style.width = '100%';
+            errorBox.style.background = 'red';
+            errorBox.style.color = 'white';
+            errorBox.style.padding = '20px';
+            errorBox.style.zIndex = '9999';
+            errorBox.innerText = 'Error: ' + e.message;
+            document.body.appendChild(errorBox);
+        });
+    </script>
+
+    <!-- Import Map for React without Build Step -->
+    <script type="importmap">
+    {
+        "imports": {
+            "react": "https://esm.sh/react@18.2.0?dev",
+            "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?dev&deps=react@18.2.0",
+            "framer-motion": "https://esm.sh/framer-motion@10.16.4?dev&deps=react@18.2.0,react-dom@18.2.0"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!-- Application Entry Point -->
+    <script type="module" src="./src/app.js"></script>
+</body>
+
+</html>
