@@ -14,7 +14,7 @@ Do uruchomienia projektu w ten sposób należy mieć zainstalowanego Pythona (we
    ```bash
    python -m http.server
    ```
-5. Wejdz na przeglądarce na stronę:
+5. Wejdz w przeglądarce na stronę:
 ```bash
     http://localhost:8000
 ```
