@@ -11,9 +11,9 @@ Do uruchomienia projektu w ten sposób należy mieć zainstalowanego Pythona (we
 2. Otwórz **Terminal** lub **PowerShell** 
 3. Przejdź do folderu z projektem np. D:\AplikacjaRandkowa_AURA
 4. Wpisz poniższe polecenie, aby uruchomić prosty serwer:
-   ```bash
+```bash
    python -m http.server
-   ```
+```
 5. Wejdz w przeglądarce na stronę:
 ```bash
     http://localhost:8000
