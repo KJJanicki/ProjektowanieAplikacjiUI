@@ -2,7 +2,7 @@
 
 ## Jak uruchomić
 
-Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serwera WWW.
+Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serwera na stronie internetowej.
 
 ### Zalecene użyć Pythona:
 Do uruchomienia projektu w ten sposób należy mieć zainstalowanego Pythona (wersja obojętna):
