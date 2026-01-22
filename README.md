@@ -1,5 +1,5 @@
 # ProjektowanieAplikacjiUI
-
+# Projekt przedstawia Aplikację Randkową - Aura.
 ## Jak uruchomić
 
 Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serwera na stronie internetowej.
