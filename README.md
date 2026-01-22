@@ -5,7 +5,7 @@
 Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serwera WWW.
 
 ### Zalecene użyć Pythona:
-Do uruchomienia tego trzeba mieć zainstalowanego Pythona (wersja obojętna):
+Do uruchomienia projektu w ten sposób należy mieć zainstalowanego Pythona (wersja obojętna):
 
 1. Pobierz folder z projektem - "AplikacjaRandkowa_AURA.
 2. Otwórz **Terminal** lub **PowerShell** w folderze projektu (np. `d:\newworkspace`).
