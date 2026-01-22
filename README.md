@@ -8,7 +8,7 @@ Aplikacja korzysta z **ES Modules**, dlatego do działania wymaga lokalnego serw
 Do uruchomienia projektu w ten sposób należy mieć zainstalowanego Pythona (wersja obojętna):
 
 1. Pobierz folder z projektem - "AplikacjaRandkowa_AURA.
-2. Otwórz **Terminal** lub **PowerShell** w folderze projektu (np. `d:\newworkspace`).
+2. Otwórz **Terminal** lub **PowerShell** 
 3. Przejdź do folderu z projektem np. D:\AplikacjaRandkowa_AURA
 4. Wpisz poniższe polecenie, aby uruchomić prosty serwer:
    ```bash
